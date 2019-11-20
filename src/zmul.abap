@@ -31,7 +31,8 @@ CLASS lcl_main IMPLEMENTATION.
       |<!DOCTYPE html>                                                        | &&
       |<html>                                                                 | &&
       |  <head>                                                               | &&
-      |    <style>body \{ font-family: sans-serif; \}</style>                 | &&
+      |    <style>body \{ font-family:cursive; color:darkred;                 | &&
+      |               background-color:lightyellow; font-size:24px; \}</style>| &&
       |    <meta http-equiv="X-UA-Compatible" content="IE=edge">              | &&
       |    <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>| &&
       |  </head>                                                              | &&
@@ -52,7 +53,8 @@ CLASS lcl_main IMPLEMENTATION.
 
       |<form name="INPUT" method="post" action="SAPEVENT:INPUT">| &&
       |<table><tr><td>| &&
-      |What is { n1 } * {  n2 }?   Answer:<input type=number name=answer onsubmit="this.form.submit()">| &&
+      |What is { n1 } * {  n2 }?</td></tr>| &&
+      |<tr><td>Answer:<input type=number name=answer onsubmit="this.form.submit()">| &&
       |<button id="enterButton" type="button" title="Enter" onClick="sendInput(INPUT);" onKeypress="if(event.keycode=13) sendInput(INPUT);">Check my answer</button>| &&
       |</td></tr></table>| &&
       |</form>| &&
