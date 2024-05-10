@@ -12,8 +12,8 @@ ENDCLASS.
 
 
 CLASS zcl_foo IMPLEMENTATION.
-  
+
   METHOD run.
   ENDMETHOD.
-  
+
 ENDCLASS.
